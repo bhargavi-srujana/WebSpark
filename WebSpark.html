@@ -7,6 +7,16 @@
 	<title>Web Spark</title>
 	<link rel="stylesheet" href="./index.css">
 	<style>
+		@font-face {
+			font-family: "qurova";
+			src: url(QurovaDEMO-Bold-BF67a5c637eed62.otf), format('otf');
+		}
+
+		@font-face {
+			font-family: "collite";
+			src: url(ColetteRegular-nA9E0.otf), format('otf');
+		}
+
 		body,
 		html {
 			margin: 0;
@@ -45,7 +55,7 @@
 			align-items: center;
 			justify-content: center;
 			text-align: center;
-			font-family: 'cormorant',serif;
+			font-family: 'cormorant', serif;
 			color: #fffcf5;
 			font-size: 4.5rem;
 			font-weight: bold;
@@ -91,7 +101,7 @@
 		.about-me h1 {
 			font-size: 2.8rem;
 			margin-bottom: 2rem;
-			font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 		}
 
 		.about-me p {
@@ -150,17 +160,6 @@
 			margin-top: 2rem;
 		}
 
-		.projects h2 {
-			text-align: center;
-			font-size: 2rem;
-			display: flex;
-			justify-content: center;
-		}
-
-		.projects p {
-			color: #87a6d192;
-		}
-
 		.projects-grid div {
 			background: rgba(255, 255, 255, 0.1);
 			padding: 1rem;
@@ -195,7 +194,7 @@
 			line-height: 1.5;">WELCOME TO MY</h6>
 			<h2 style="color:rgb(255, 3, 3);margin: 0;
 			line-height: 1.5;
-			font-family:'Caveat',cursive;">PORTFOLIO</h2>
+			font-family:'qurova';">PORTFOLIO</h2>
 		</div>
 	</div>
 
@@ -207,11 +206,15 @@
 				<img src="./images/girl_avatar.jpg" alt="me">
 			</div>
 			<div class="about-me">
-				<h1><span style="color: #FFC107; opacity: 0.8;font-family: 'kalam',cursive;font-size :3.5rem;">Angela Yu</span><br>
+				<h1><span style="color: #FFC107; opacity: 0.8;font-family:' 'kalam',cursive';font-size :3.5rem;">Angela
+						Yu</span><br>
 					I am a full stack developer</h1>
-				<p>I'm a passionate developer who thrives at the intersection of creativity and technology. 
-					I specialize in crafting visually engaging, interactive web experiences with a focus on smooth performance and intuitive user interactions. 
-					I'm always exploring new tools and techniques to push the boundaries of what's possible on the web.</p>
+				<p style="font-family: 'collite';">I'm a passionate developer who thrives at the intersection of
+					creativity and technology.
+					I specialize in crafting visually engaging, interactive web experiences with a focus on smooth
+					performance and intuitive user interactions.
+					I'm always exploring new tools and techniques to push the boundaries of what's possible on the web.
+				</p>
 			</div>
 		</div>
 
@@ -302,7 +305,7 @@
 				</div>
 			</div>
 			<div class="contain">
-				<form >
+				<form>
 					<div class="form-group">
 						<label for="name">Name:</label>
 						<input type="text" id="name" name="name" required>
